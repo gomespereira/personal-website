@@ -1,7 +1,5 @@
 # Personal Website
 
-formidable front end web development
-brittany chiang skills and work
-stephanie walter 2nd section
-robin wieruch professional story
-nando vieira layout
+My personal website.
+
+This project is built with Next.js and deployed on Vercel.

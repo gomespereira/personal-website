@@ -13,19 +13,6 @@ export default function Layout({ children }) {
           rel="icon"
           href="/favicon.ico"
         />
-        <link
-          rel="dns-prefetch"
-          href="https://fonts.googleapis.com"
-        />
-        <link
-          rel="preconnect"
-          href="https://fonts.gstatic.com/"
-          crossOrigin="true"
-        />
-        <link
-          href="https://fonts.googleapis.com/css2?family=DM+Mono&family=Gochi+Hand&family=Proza+Libre&family=Roboto+Mono&display=swap"
-          rel="stylesheet"
-        />
       </Head>
       <Header />
       <main className="flex flex-col flex-auto justify-center items-center">{children}</main>

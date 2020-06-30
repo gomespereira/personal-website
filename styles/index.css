@@ -2,8 +2,41 @@
 
 @tailwind components;
 
+@font-face {
+  font-family: 'Roboto Mono';
+  font-display: swap;
+  src: url('/fonts/roboto-mono.woff2') format('woff2'),
+       url('/fonts/roboto-mono.woff') format('woff'),
+       url('/fonts/roboto-mono.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'DM Mono';
+  font-display: swap;
+  src: url('/fonts/dm-mono.woff2') format('woff2'),
+       url('/fonts/dm-mono.woff') format('woff'),
+       url('/fonts/dm-mono.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Gochi Hand';
+  font-display: swap;
+  src: url('/fonts/gochi-hand.woff2') format('woff2'),
+       url('/fonts/gochi-hand.woff') format('woff'),
+       url('/fonts/gochi-hand.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Proza Libre';
+  font-display: swap;
+  src: url('/fonts/proza-libre.woff2') format('woff2'),
+       url('/fonts/proza-libre.woff') format('woff'),
+       url('/fonts/proza-libre.ttf') format('truetype');
+}
+
 #__next {
-  @apply flex flex-col min-h-screen bg-gray-800 font-mono text-white;
+  font-family: 'Roboto Mono', monospace;
+  @apply flex flex-col min-h-screen bg-gray-800 text-white;
 }
 
 #logo {

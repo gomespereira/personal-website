@@ -4,10 +4,7 @@ module.exports = {
     './pages/**/*.tsx'
   ],
   theme: {
-    fontFamily: {
-      'mono': ['"Roboto Mono"']
-    },
-    extend: {},
+    extend: {}
   },
   variants: {},
   plugins: [],
