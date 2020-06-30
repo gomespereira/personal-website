@@ -1,0 +1,7 @@
+{
+  "hints": {
+    "axe/structure": ["error", {
+      "ignore": ["ul"]
+    }]
+  }
+}

@@ -1,0 +1,21 @@
+@tailwind base;
+
+@tailwind components;
+
+#__next {
+  @apply flex flex-col min-h-screen bg-gray-800 font-mono text-white;
+}
+
+#logo {
+  font-family: 'DM Mono', monospace;
+}
+
+#salute {
+  font-family: 'Gochi Hand', cursive;
+}
+
+#heading {
+  font-family: 'Proza Libre', sans-serif;
+}
+
+@tailwind utilities;
