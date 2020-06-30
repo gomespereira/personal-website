@@ -16,15 +16,15 @@ export default function About() {
         </p>
         <p>
           A year later I wrote my first line of code. I started with&nbsp;
-          <span className="bg-gray-200 text-green-500 font-bold">Node.js</span>
+          <span className="bg-gray-300 text-green-500 font-bold">Node.js</span>
           &nbsp;and&nbsp;
-          <span className="bg-gray-200 text-gray-800 font-bold">Express</span>
+          <span className="bg-gray-300 text-gray-800 font-bold">Express</span>
           , than&nbsp;
-          <span className="bg-gray-200 text-red-700 font-bold">AngularJS</span>
+          <span className="bg-gray-300 text-red-700 font-bold">AngularJS</span>
           ,&nbsp;
-          <span className="bg-gray-200 text-green-600 font-bold">Vue.js</span>
+          <span className="bg-gray-300 text-green-600 font-bold">Vue.js</span>
           , finally landing on&nbsp;
-          <span className="bg-gray-200 text-blue-600 font-bold">React</span>
+          <span className="bg-gray-300 text-blue-600 font-bold">React</span>
           .
         </p>
       </section>
