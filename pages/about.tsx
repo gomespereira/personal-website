@@ -19,11 +19,11 @@ export default function About() {
           <span className="bg-gray-300 text-green-500 font-bold">Node.js</span>
           &nbsp;and&nbsp;
           <span className="bg-gray-300 text-gray-800 font-bold">Express</span>
-          , than&nbsp;
+          , then&nbsp;
           <span className="bg-gray-300 text-red-700 font-bold">AngularJS</span>
           ,&nbsp;
           <span className="bg-gray-300 text-green-600 font-bold">Vue.js</span>
-          , finally landing on&nbsp;
+          , and finally landing on&nbsp;
           <span className="bg-gray-300 text-blue-600 font-bold">React</span>
           .
         </p>
