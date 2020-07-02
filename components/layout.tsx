@@ -23,7 +23,7 @@ export default function Layout({ children }) {
         />
       </Head>
       <Header />
-      <main className="flex flex-col flex-auto justify-center items-center">{children}</main>
+      <main className="flex flex-col flex-auto justify-center items-center mr-6 ml-6 md:mr-12 md:ml-12 lg:mr-32 lg:ml-32">{children}</main>
       <Footer />
     </Fragment>
   )

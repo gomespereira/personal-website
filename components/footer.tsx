@@ -1,9 +1,9 @@
 export default function Footer() {
   return (
-    <footer className="flex justify-center mb-4">
+    <footer className="flex justify-center pb-4">
       <p>
         <a
-          className="bg-red-600 transition duration-300 ease-in-out hover:bg-gray-800 hover:text-red-500"
+          className="bg-red-600"
           href="https://github.com/gomespereira/personal-website"
           target="_blank"
           rel="noopener noreferrer"

@@ -2,7 +2,7 @@ import Navbar from 'components/navbar'
 
 export default function Header() {
   return (
-    <header className="flex justify-between items-center mt-4 mr-6 ml-6 md:mr-10 md:ml-10">
+    <header className="flex justify-between items-center pt-4 pr-6 pl-6 md:pr-10 md:pl-10">
       <span
         id="logo"
         className="text-3xl"

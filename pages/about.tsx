@@ -3,7 +3,7 @@ import Layout from 'components/layout'
 export default function About() {
   return (
     <Layout>
-      <section className="space-y-4 mr-6 ml-6 md:mr-64 md:ml-64">
+      <section className="space-y-4 md:mr-0 md:ml-0 lg:mr-0 lg:ml-0">
         <span id="heading" className="bg-red-600 text-2xl font-bold">My professional story</span>
         <p>
           I started my carrer in 2005 in the Foreign Trading business, doing operations

@@ -36,7 +36,7 @@
 
 #__next {
   font-family: 'Roboto Mono', monospace;
-  @apply flex flex-col min-h-screen bg-gray-800 text-white;
+  @apply flex flex-col max-w-full h-screen bg-gray-800 text-white;
 }
 
 #logo {
