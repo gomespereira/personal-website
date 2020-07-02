@@ -3,7 +3,7 @@ export default function Footer() {
     <footer className="flex justify-center pb-4">
       <p>
         <a
-          className="bg-red-600"
+          className="transition duration-300 ease-in-out hover:bg-red-600"
           href="https://github.com/gomespereira/personal-website"
           target="_blank"
           rel="noopener noreferrer"
