@@ -23,7 +23,7 @@ export default function About() {
           <span className="bg-gray-300 text-red-700 font-bold">AngularJS</span>
           ,&nbsp;
           <span className="bg-gray-300 text-green-600 font-bold">Vue.js</span>
-          , and finally landing on&nbsp;
+          , and finally&nbsp;
           <span className="bg-gray-300 text-blue-600 font-bold">React</span>
           .
         </p>

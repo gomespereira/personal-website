@@ -10,8 +10,12 @@ export default function Navbar() {
         <li>
           {
             router.pathname === "/"
-            ? <Link href="/about"><a className="transition duration-300 ease-in-out hover:bg-red-600">About</a></Link>
-            : <Link href="/"><a className="transition duration-300 ease-in-out hover:bg-red-600">Home</a></Link>
+              ? <Link href="/about">
+                  <a className="transition duration-300 ease-in-out hover:bg-red-600">./about</a>
+                </Link>
+              : <Link href="/">
+                  <a className="transition duration-300 ease-in-out hover:bg-red-600">./home</a>
+                </Link>
           }
         </li>
       </ul>
