@@ -36,8 +36,7 @@
 
 #__next {
   font-family: 'Roboto Mono', monospace;
-  min-height: -webkit-fill-available;
-  @apply flex flex-col max-w-full bg-gray-800 text-white;
+  @apply flex flex-col min-h-screen bg-gray-800 text-white;
 }
 
 #logo {

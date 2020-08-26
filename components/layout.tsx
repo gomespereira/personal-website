@@ -8,7 +8,7 @@ export default function Layout({ children }) {
   return (
     <Fragment>
       <Head>
-        <title>Diego Pereira - JavaScript Developer</title>
+        <title>Diego Pereira - Web Developer</title>
         <meta
           name="viewport"
           content="width=device-width, initial-scale=1.0"
